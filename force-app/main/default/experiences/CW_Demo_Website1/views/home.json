@@ -1,0 +1,84 @@
+{
+  "appPageId" : "81d3f331-1d2c-466c-bb6c-737578b5445f",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "2a1d7f01-4a2d-4a1b-ba4e-728221fffe7a",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<img class='sfdcCbImage' src='/sfsites/c/img/community/cpt/cpt-home-banner.png'             style='width:100%;'/>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "7d0743df-bdcb-49c1-864f-fb4de19d3ec8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(212, 212, 212)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "titleColor" : "",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "c782785e-ec72-41bf-8c21-cd51de6aa652",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "82c6e617-e233-4c13-8ae1-b821748e52c3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "b588fa10-fec4-4301-8533-963c1f5091ee",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"utm_campaign\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_campaign}\"},{\"label\":\"utm_content\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_content}\"},{\"label\":\"utm_id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_id}\"},{\"label\":\"utm_medium\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_medium}\"},{\"label\":\"utm_referer\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_referer}\"},{\"label\":\"utm_source\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_source}\"},{\"label\":\"utm_term\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!utm_term}\"}]",
+        "flowName" : "Campaign_Lead_Flow"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "cf8aac28-5917-46f5-88be-0fca24040824",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d6286a95-745b-457f-ad96-7240d48ab039",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "20a6f1b2-1a32-4eba-8b80-47a480c605b6",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d0c96c6b-fdb0-4d3a-9cb3-273b8b6234d9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "70cf44ac-bc91-4dd9-abd5-d349165c8f4b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}
