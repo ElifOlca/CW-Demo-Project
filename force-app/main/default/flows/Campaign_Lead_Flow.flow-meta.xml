@@ -235,56 +235,56 @@
             <assignToReference>assign_Lead.FirstName</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>name.firstName</elementReference>
+                <elementReference>Copy_1_of_name.firstName</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.LastName</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>name.lastName</elementReference>
+                <elementReference>Copy_1_of_name.lastName</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.Phone</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>phone.value</elementReference>
+                <elementReference>Copy_1_of_phone.value</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.Street</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>address.street</elementReference>
+                <elementReference>Copy_1_of_address.street</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.City</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>address.city</elementReference>
+                <elementReference>Copy_1_of_address.city</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.State</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>address.province</elementReference>
+                <elementReference>Copy_1_of_address.province</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.PostalCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>address.postalCode</elementReference>
+                <elementReference>Copy_1_of_address.postalCode</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>assign_Lead.Email</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>email.value</elementReference>
+                <elementReference>Copy_1_of_email.value</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -298,7 +298,7 @@
             <assignToReference>assign_Lead.Company</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>Lead from Source</stringValue>
+                <stringValue>Lead from Web</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -557,7 +557,7 @@
         <allowPause>false</allowPause>
         <fields>
             <name>Copy_1_of_EndText</name>
-            <fieldText>&lt;p&gt;Thank you for your request!&amp;nbsp;You will receive a respond shortly.&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;Thank you for your request!&amp;nbsp;You will receive a respond shortly. (no)&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <nextOrFinishButtonLabel>Close</nextOrFinishButtonLabel>
